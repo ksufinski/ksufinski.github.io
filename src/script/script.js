@@ -22,7 +22,7 @@ let str =
 	'Loading data from server.' +
 	'Success.' +
 	'Preparing data for output.' +
-	'=======BEGIN_OF_THE_MSG=======.'+'Привет!. ' +
+	'=======BEGIN_OF_THE_MSG=======.'+'Привет, MFC web studio !. ' +
 	'Меня зовут Дима Муха.' +
 	'Мне 21 и я из Днепропетровска. '+
 	'Я люблю JavaScript, но так было не всегда . ' +
