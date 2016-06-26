@@ -106,6 +106,10 @@ body {
 .header-1.name {
   padding-top: 5%; }
 
+.right h2 {
+  line-height: 1;
+  margin: 5px 5px; }
+
 .header-2-position {
   color: #fcd9af; }
 
@@ -114,7 +118,7 @@ body {
 
 /* footer */
 div.footer {
-  font-size: 15px;
+  font-size: 14px;
   min-width: 100%;
   position: fixed;
   bottom: 0;
