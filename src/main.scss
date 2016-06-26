@@ -1,4 +1,11 @@
 @import "page/console";
+
+$footer-bg: #010101;
+$c-pink: #e64423;
+
+body {
+  margin: 0;
+}
 body.main {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   background-size: 100vw 100vh;
@@ -17,4 +24,45 @@ body.main {
 
 .header-2-where-from {
   color: #B82A0F;
+}
+
+
+/* footer */
+div.footer{
+  min-width:100%;
+  position: fixed;
+  bottom:0;
+  padding: 10px 20px;
+  background-color: $footer-bg;
+  color: #fff;
+  font-weight: 600;
+
+  ul {
+    display: inline-block;
+
+  }
+  ul.social > li {
+    display: inline-block;
+  }
+  .social > li {
+    padding:  6px 6px;
+  }
+  a, .text-center {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  a:hover {
+    text-decoration: none;
+    color: $c-pink;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    padding:  6px 20px;
+  }
+  .navbar-brand {
+    float: left;
+  }
 }

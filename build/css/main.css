@@ -45,6 +45,9 @@ body.console {
   100% {
     transform: rotate(25deg) translateY(2%) translateX(60%); } }
 
+body {
+  margin: 0; }
+
 body.main {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   background-size: 100vw 100vh;
@@ -60,3 +63,32 @@ body.main {
 
 .header-2-where-from {
   color: #B82A0F; }
+
+/* footer */
+div.footer {
+  min-width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 10px 20px;
+  background-color: #010101;
+  color: #fff;
+  font-weight: 600; }
+  div.footer ul {
+    display: inline-block; }
+  div.footer ul.social > li {
+    display: inline-block; }
+  div.footer .social > li {
+    padding: 6px 6px; }
+  div.footer a, div.footer .text-center {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff; }
+  div.footer a:hover {
+    text-decoration: none;
+    color: #e64423; }
+  div.footer ul {
+    list-style-type: none; }
+  div.footer li {
+    padding: 6px 20px; }
+  div.footer .navbar-brand {
+    float: left; }
