@@ -2,6 +2,7 @@
 
 $footer-bg: #010101;
 $c-pink: #f6572b;
+$c-grey: #F0ECEB;
 
 body {
   margin: 0;
@@ -18,7 +19,7 @@ body {
   background-color: $c-pink;
 }
 .right {
-  background-color: #F0ECEB;
+  background-color: $c-grey;
 }
 
 .right .text-content {
@@ -100,6 +101,10 @@ div.footer{
   background-color: $footer-bg;
   color: #fff;
   font-weight: 600;
+
+  ul > li {
+    cursor: pointer;
+  }
 
   ul {
     display: inline-block;
