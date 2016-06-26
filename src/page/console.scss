@@ -1,4 +1,8 @@
+$footer-bg: #010101;
+$c-pink: #e64423;
+
 body.console {
+    margin: 0;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 22px;
     color: #272;
@@ -90,4 +94,16 @@ body.console {
     }
   }
 
+
+  div.footer{
+    font-size: 15px;
+    min-width:100%;
+    position: fixed;
+    bottom:0;
+    padding: 0 20px;
+    background-color: $footer-bg;
+    color: #fff;
+    font-weight: 600;
+  }
 }
+
