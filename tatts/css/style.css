@@ -1,0 +1,377 @@
+body, html {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fafafa;
+    color: #6e6e86;
+}
+h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+p {
+    color: #6e6e86;
+    text-align: center;
+    font-size: 2rem;
+}
+.navbar {
+    position: fixed;
+    top:0;
+    min-width: 100%;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: normal;
+    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar .navbar-header h4 {
+    float: left;
+    padding-top: 1%;
+}
+
+.nav  {
+    float: right;
+}
+
+
+#logo {
+    /*width: 50px;*/
+    height: 100%;
+    /*margin-top: -14px;*/
+    margin-right: 2%;
+}
+
+.carousel-wrap {
+    margin-top: 50px;
+}
+
+.catalog,
+.about-us,
+.contacts {
+    margin-top: 5%;
+}
+
+.block-header-text {
+    font-weight: 900;
+
+    /*text-transform: uppercase;*/
+    width: 100%;
+    border-top: 1px solid #bcb8c0;
+    border-bottom: 1px solid #bcb8c0;
+
+}
+
+.block-header-text-description {
+    padding: 2%;
+}
+
+.container-fluid .row2 .col-md-12{
+    padding-top: 3%;
+}
+
+.product {
+    width: 100%;
+
+}
+.product .overlay {
+    color: #fff;
+    width: 100%;
+    height:100%;
+    visibility: hidden;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    transform: scale(0,1);
+}
+.product .overlay p,
+.product .overlay h2{
+    padding-top: 15%;
+    color: #fff;
+}
+.product-1 {
+    background: #eee url(../pics/7.jpg) no-repeat center;
+    background-size: 100%;
+}
+.product:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    visibility: visible;
+    background: rgba(0,0,0, .3);
+}
+
+.block-main-text p{
+    text-align: justify !important;
+}
+.block-main-text ul {
+    list-style-type: none;
+}
+
+.paragraph-wrap {
+    margin-top:25px;
+}
+
+.contacts a p {
+    padding-top: 10px;
+}
+.contacts a:hover p {
+    color: #00a362;
+}
+
+
+.container-fluid .row2 h2 {
+   font-family: 'Ubuntu', sans-serif;
+    color: #6e6e86;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 3em;
+}
+
+.container-fluid .row2 p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #6d6d76;
+    text-align: left;
+    font-size: 1.2em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container-fluid .row3 h3 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #535353;
+    margin-top: 3%;
+}
+.container-fluid .row3 p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color: #6d6d76;
+    padding-bottom: 2%;
+}
+
+.container-fluid .row4 {
+    margin-top: 20%;
+}
+.container-fluid .row4  h4 {
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.container-fluid .row3  h4 {
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.container-fluid .row3 a {
+    font-size: 1.4em;
+}
+.container-fluid .row4 a {
+    font-size: 1.4em;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+.container-fluid .row5 {
+    height:100%; 
+}
+
+.container-fluid .row5 h1 {
+   font-family: 'Poiret One', cursive;
+    color: #fff;
+    text-align: center;
+    font-size: 2.6em;
+    background-color: #00B16A;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    margin-top: -1%;
+}
+
+.container-fluid .row5 p {
+   font-family: 'Poiret One', cursive;
+    color: #6e6e86;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.container-fluid .row5 a {
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: bolder;
+}
+
+
+.container-fluid .row5 .col-lg-3 {
+margin-top: 3%;
+text-align: center;
+}
+
+.container-fluid .row5 h2 {
+    color: #6e6e86;
+    font-size: 1.6em;
+    font-weight: bolder; 
+}
+
+.container-fluid .row6 {
+    height: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 1.4em;
+}
+.container-fluid .row6 h3 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #00a362;
+    font-size: 2em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container-fluid .row6 a{
+    color: #6e6e86;
+    text-decoration: none;
+}
+
+.container-fluid .row6 p {
+    color: #6e6e86;
+    text-decoration: none;
+}
+
+.container-fluid .row6 a:hover {
+    color:  rgb(39, 227, 147);
+    transition: 0.4s;
+}
+.container-fluid .row6 p:hover {
+    color:  rgb(39, 227, 147);
+    transition: 0.4s;
+}
+
+.header.row10 {
+    text-align: center;
+}
+
+.container-fluid .row10 p, li {
+    font-size: 1.2em;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .navbar-header h4 {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    #carousel h2 {
+        font-size:16px;
+    }
+
+    .about-us .block-header-text-description p,
+    .paragraph-wrap p {
+        font-size: 12px;
+    }
+    .block-main-text li {
+        font-size: 14px;
+    }
+
+}

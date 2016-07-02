@@ -1,0 +1,42 @@
+body, html {
+    font-family: 'Cantarell', sans-serif;
+    background-color: #EEEEEE;
+}
+
+.navbar {
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav  {
+    float: right;
+}
+.navbar li2 {
+    display: inline;
+    text-align: center;
+    padding-top: 1%;
+    color: white;
+    font-weight: bold;   
+}
+
+#logo {
+    height: 250%;
+    margin-top: -10px;
+    margin-right: 2%;
+}
+
+.container-fluid .row {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.container-fluid .row h1 {
+    text-align: center;
+    margin-top: -0.5%;
+}
+.container-fluid .row p {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 400;
+}
