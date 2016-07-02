@@ -139,6 +139,13 @@ a:hover {
     font-size: 3em;
 }
 
+.btn-send {
+    margin-top: 40px;
+    background-color: #00a362;
+    padding: 20px 40px;
+    color: #fff;
+}
+
 .container-fluid .row2 p {
     font-family: 'Ubuntu', sans-serif;
     color: #6d6d76;

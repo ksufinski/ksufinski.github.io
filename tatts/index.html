@@ -37,15 +37,9 @@
             </div>
             <div class="collapse navbar-collapse" id="responsive-menu">
                 <ul class="nav navbar-nav">
-                   <li class="dropdown">
-                <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Главная <b class="caret"></b></a>
-                           <ul class="dropdown-menu">
-                               <li><a href="#razdel1">О компании</a> 
-                           </ul>
-                    </li>
+                   <li><a href="index.html">Главная</a></li>
                     <li><a href="catalog.html">Каталог</a></li>
                     <li><a href="services.html">Услуги</a></li>
-                    <li><a href="news.html">Новости</a></li>
                     <li><a href="contacts.html">Контакты</a></li>  
                 </ul>               
             </div>
@@ -213,14 +207,48 @@
         </div>
         <div class="contact-info text-center">
             <address>
+                <button type="button" class="btn btn-send text-uppercase text-center" data-toggle="modal" data-target="#myModal">Написать нам</button>
                 <h2><strong>TATTS</strong></h2>
-                <p>P.O.Box 79662 Dubai, UAE</p>
                 <i class="fa fa-phone" style="font-size:2em;"></i></i>
-                <p>+971526411910</p>
                 <p>+971564242449</p>
+                <p>+971526411910</p>
                 <strong><i class="fa fa-envelope" style="font-size:2em;"></i></strong><br>
                 <a href="mailto:main@tattsdubai.com"><p>main@tattsdubai.com</p></a>
+                <p>P.O.Box 79662 Dubai, UAE</p>
+                <p style="padding-bottom: 100px;">Emirates Industrial City, Sajjaa area, warehouse 205/5 sector 8</p>
+
+
+
             </address>
+        </div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form action="" method="POST"  target="hidden_iframe" onsubmit="submitted=true;">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="myModalLabel">Наш менеджер свяжется с вами в ближайшее время</h2>
+                            <input style="display: none;" type="text" name="entry.813757740" value="" class="form-page" id="entry_813757740" dir="auto" aria-label="Страница  " title="">
+                        </div>
+                        <div class="modal-body">
+                            <h3>Ваше имя</h3>
+                            <input type="text" name="entry.1786553492" value="" class="form-control" placeholder="Имя" aria-describedby="basic-addon1">
+                            <h3>Ваше сообщение</h3>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+                            <input type="hidden" name="draftResponse" value="[,,&quot;-3064501426794144088&quot;]">
+                            <input type="hidden" name="pageHistory" value="0">
+                            <input type="hidden" name="fvv" value="0">
+                            <input type="hidden" name="fbzx" value="-3064501426794144088">
+                        </div>
+                        <div class="modal-footer">
+                            <div class="row text-center">
+                                <input type="submit" name="submit" value="ОТПРАВИТЬ" class="btn btn-lg text-center">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </row>
 </div>
