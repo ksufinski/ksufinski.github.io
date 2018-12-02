@@ -149,6 +149,10 @@ div.footer {
     float: left; 
 }
 
+.social {
+      padding-left: 7px;
+}
+
 
 .header-2-position a, 
 .header-2-position a:link, 
