@@ -123,7 +123,8 @@ a:hover {
     color: #B82A0F;
 }
 
-.about .content p {
+.about .content p,
+.notes .content p {
     font-weight: 400;
     line-height: 1.5;
     font-size: 14px;
