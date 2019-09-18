@@ -130,3 +130,41 @@ a:hover {
     font-size: 14px;
     color: #636363;
 }
+
+.atlasCalendar {
+    padding: 10px 30px;
+}
+.atlasCalendar .today {
+    background: #f5a727;
+    color: #F0ECEB;
+}
+
+.atlasCalendar h1 {
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.atlasCalendar h2 {
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0
+}
+
+.atlasCalendar h1 b {
+    font-weight: 800;
+}
+
+.atlasCalendar .day {
+    font-size: 12px;
+}
+
+.atlasCalendar .startOfTheWeek {
+    background: #f3f3f3;
+}
+
+.atlasCalendar .weekNumber {
+    float: right;
+    font-weight: 200;
+}
