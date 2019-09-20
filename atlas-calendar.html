@@ -68,8 +68,8 @@
     }
 
     function updateHeadLabel() {
-      const percent = parseInt(todayIndex * 100 / daysCount, 10);
-      headEl.innerHTML += `<br> <b>${todayIndex}/${daysCount}</b> days completed — <b>${percent}%</b>`
+      const percent = parseInt((todayIndex + 1) * 100 / daysCount, 10);
+      headEl.innerHTML += `<br> <b>${todayIndex + 1}/${daysCount}</b> days completed — <b>${percent}%</b>`
     }
 
     createDatesArray().forEach(appendDayElement);
