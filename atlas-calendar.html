@@ -18,6 +18,20 @@
     const daysCount = 40;
     let todayIndex = null;
     const startDate = moment('2019-09-16');
+    const daysAchievements = {
+      'Sep 23': {
+        name: 'First version of `explore locations around` with UI mocks',
+        done: true
+      },
+      'Sep 24': {
+        name: 'Automated CI/CD',
+        done: false
+      },
+      'Sep 25': {
+        name: 'First version of `curated routes` with UI mocks',
+        done: false
+      }
+    };
 
     function createDatesArray() {
       let array = [];
@@ -49,10 +63,16 @@
                               }) {
       const divEl = document.createElement('div');
       divEl.classList.add('day');
-      divEl.innerHTML = label;
+      divEl.innerHTML = `<span>${label} </span>` +
+        (daysAchievements[label] ?
+          `<span style="text-decoration: ${daysAchievements[label].done ? 'line-through': 'show'}">
+                ${daysAchievements[label].name}
+           </span>`
+          : '');
+
 
       if (isCompleted) {
-        divEl.style.textDecoration = 'line-through'
+        divEl.firstChild.style.textDecoration = 'line-through'
       }
       if (isToday) {
         divEl.classList.add('today');
@@ -60,7 +80,7 @@
 
       if (isWeekStart) {
         divEl.classList.add('startOfTheWeek');
-        divEl.innerHTML += `<span class="weekNumber">#${weekNumber}</span>`
+        divEl.innerHTML += `<span class="weekNumber">W${weekNumber}</span>`
       }
 
       containerEl.appendChild(divEl);

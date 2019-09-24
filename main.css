@@ -135,7 +135,7 @@ a:hover {
     padding: 10px 30px;
 }
 .atlasCalendar .today {
-    background: #f5a727;
+    background: #f5a727 !important;
     color: #F0ECEB;
 }
 
