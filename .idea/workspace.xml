@@ -20,30 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de4a640a-2158-499c-a225-fa9fd3f87fc0" name="Default Changelist" comment="counter">
-      <change beforePath="$PROJECT_DIR$/55.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atlas-calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/atlas-calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-not-sel-list copy 2.json" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/css-not-sel-list copy 2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_feed_xml_rss-invalid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/example_feed_xml_rss-invalid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_feed_xml_rss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/example_feed_xml_rss.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_rss.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/example_rss.rss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/example-2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/example-2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/example.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/example.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/test_empty_feed.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/test_empty_feed.rss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/test_invalid_feed_rss20.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/test_invalid_feed_rss20.rss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/test_invalid_feed_without_category_tree.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/test_invalid_feed_without_category_tree.rss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/test_invalid_xml.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/test_invalid_xml.rss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/test_valid_feed_rss20.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/test_valid_feed_rss20.rss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kamilka-counter/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/kamilka-counter/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-testbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/pop-testbed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productivity-casper/intro/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/push-testbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/push-testbed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Resume_Dmitry_Mukha.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/test.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text-stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/text-stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +71,11 @@
       <recent name="$PROJECT_DIR$/feed" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/legacy" />
       <recent name="$PROJECT_DIR$/sandbox" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/work-resources" />
       <recent name="$PROJECT_DIR$/stories/pictures-min" />
-      <recent name="$PROJECT_DIR$/stories/pictures" />
     </key>
   </component>
   <component name="RunManager">
@@ -144,7 +121,7 @@
       <workItem from="1609608107890" duration="371000" />
       <workItem from="1609609003125" duration="1047000" />
       <workItem from="1609665068664" duration="2302000" />
-      <workItem from="1609751581915" duration="5642000" />
+      <workItem from="1609751581915" duration="6314000" />
     </task>
     <task id="LOCAL-00001" summary="static resources added">
       <created>1577185833001</created>
