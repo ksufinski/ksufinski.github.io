@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de4a640a-2158-499c-a225-fa9fd3f87fc0" name="Default Changelist" comment="counter">
+      <change beforePath="$PROJECT_DIR$/55.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atlas-calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/atlas-calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-not-sel-list copy 2.json" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/css-not-sel-list copy 2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_feed_xml_rss-invalid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/example_feed_xml_rss-invalid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_feed_xml_rss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/example_feed_xml_rss.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_rss.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/example_rss.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/example-2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/example-2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/example.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/example.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/test_empty_feed.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/test_empty_feed.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/test_invalid_feed_rss20.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/test_invalid_feed_rss20.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/test_invalid_feed_without_category_tree.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/test_invalid_feed_without_category_tree.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/test_invalid_xml.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/test_invalid_xml.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/test_valid_feed_rss20.rss" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/feed/test_valid_feed_rss20.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kamilka-counter/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/kamilka-counter/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-testbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/pop-testbed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productivity-casper/intro/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/push-testbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/push-testbed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Resume_Dmitry_Mukha.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/work-resources/test.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/text-stats.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1VQWMaJCf3CeYYE23ALnDwf3AKe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kamilka-counter" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/stories/pictures-min" />
+      <recent name="$PROJECT_DIR$/stories" />
+      <recent name="$PROJECT_DIR$/feed" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sandbox" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/work-resources" />
+      <recent name="$PROJECT_DIR$/stories/pictures-min" />
+      <recent name="$PROJECT_DIR$/stories/pictures" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de4a640a-2158-499c-a225-fa9fd3f87fc0" name="Default Changelist" comment="" />
+      <created>1577185751426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577185751426</updated>
+      <workItem from="1577185752946" duration="842000" />
+      <workItem from="1578579271881" duration="1408000" />
+      <workItem from="1579688485282" duration="20000" />
+      <workItem from="1580199639114" duration="1371000" />
+      <workItem from="1580217898256" duration="45000" />
+      <workItem from="1580219084696" duration="953000" />
+      <workItem from="1580912879325" duration="1540000" />
+      <workItem from="1581094638102" duration="550000" />
+      <workItem from="1581169289243" duration="11632000" />
+      <workItem from="1582302109944" duration="297000" />
+      <workItem from="1582552458780" duration="650000" />
+      <workItem from="1590596161001" duration="666000" />
+      <workItem from="1602179429125" duration="1169000" />
+      <workItem from="1602237827147" duration="17000" />
+      <workItem from="1609608107890" duration="371000" />
+      <workItem from="1609609003125" duration="1047000" />
+      <workItem from="1609665068664" duration="2302000" />
+      <workItem from="1609751581915" duration="5642000" />
+    </task>
+    <task id="LOCAL-00001" summary="static resources added">
+      <created>1577185833001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577185833001</updated>
+    </task>
+    <task id="LOCAL-00002" summary="static resources added">
+      <created>1577187076740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577187076741</updated>
+    </task>
+    <task id="LOCAL-00003" summary="static resources added">
+      <created>1578579403309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578579403309</updated>
+    </task>
+    <task id="LOCAL-00004" summary="asdf">
+      <created>1580200457266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580200457266</updated>
+    </task>
+    <task id="LOCAL-00005" summary="asdf">
+      <created>1580201425208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580201425208</updated>
+    </task>
+    <task id="LOCAL-00006" summary="rss">
+      <created>1580219110002</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580219110002</updated>
+    </task>
+    <task id="LOCAL-00007" summary="rss">
+      <created>1580912904108</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580912904108</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rss">
+      <created>1580913553110</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580913553110</updated>
+    </task>
+    <task id="LOCAL-00009" summary="rss">
+      <created>1580915355163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580915355163</updated>
+    </task>
+    <task id="LOCAL-00010" summary="xhtml">
+      <created>1582552482379</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582552482380</updated>
+    </task>
+    <task id="LOCAL-00011" summary="counter">
+      <created>1602180299965</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602180299965</updated>
+    </task>
+    <task id="LOCAL-00012" summary="counter">
+      <created>1602180412906</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602180412906</updated>
+    </task>
+    <task id="LOCAL-00013" summary="blog wip">
+      <created>1609753953094</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609753953094</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="BRANCHES_LOG">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="static resources added" />
+    <MESSAGE value="asdf" />
+    <MESSAGE value="rss" />
+    <MESSAGE value="xhtml" />
+    <MESSAGE value="counter" />
+    <MESSAGE value="blog wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog wip" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="0" key="CommitChangelistDialog2" timestamp="1609753952385">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="221" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1609753952385" />
+    <state x="367" y="26" key="RollbackChangesDialog" timestamp="1609665362633">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="367" y="26" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1609665362633" />
+    <state x="192" y="120" key="Vcs.Push.Dialog.v2" timestamp="1609753954673">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="192" y="120" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1609753954673" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/57.23.1223.777@57.23.1223.777" timestamp="1602180318176" />
+    <state x="440" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609609057924">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="440" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1609609057924" />
+    <state x="342" y="157" width="596" height="486" key="find.popup" timestamp="1609753861812">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="342" y="157" width="596" height="486" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1609753861812" />
+  </component>
+</project>
