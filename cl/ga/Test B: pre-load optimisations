@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test B: pre-load optimisations</title>
+  <style> body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }</style>
+</head>
+<body>
+<h1>Test B: pre-load optimisations</h1>
+<h2>Show detached widget immediately</h2><br>
+<h2>Show detached widget if user spent 20 sec and leaves page</h2>
+
+<script>
+  !function (t, e, c, n) {
+    var s = e.createElement(c);
+    s.async = 1, s.src = 'https://scripts.claspo.io/scripts/' + n + '.js';
+    var r = e.scripts[0];
+    r.parentNode.insertBefore(s, r);
+    var f = function () {
+      f.c(arguments);
+    };
+    f.q = [];
+    f.c = function () {
+      f.q.push(arguments);
+    };
+    t['claspo'] = t['claspo'] || f;
+  }(window, document, 'script', '68F009FEC29D49F7971E86C7AFE2D3EF');
+</script>
+<script>claspo('init');</script>
+
+<script>
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const tickElement = document.createElement('h1');
+    tickElement.classList.add('tick');
+    let start = performance.now();
+    let getTickValue = () => `${Math.round((performance.now() - start) / 1_000)}`;
+    tickElement.textContent = getTickValue();
+    document.body.appendChild(tickElement);
+    setInterval(() => {
+      tickElement.textContent = getTickValue();
+    }, 1000);
+  });
+</script>
+</body>
+</html>
