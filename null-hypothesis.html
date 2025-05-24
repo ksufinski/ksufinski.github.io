@@ -10,21 +10,30 @@
   <!-- jStat CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jstat/1.9.4/jstat.min.js"></script>
   <style>
-    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+
+    body { font-family: 'Helvetica', sans-serif; max-width: 800px; margin: auto; padding: 20px; }
     .control { margin-bottom: 20px; }
     label { display: block; font-weight: bold; margin-bottom: 5px; }
     input[type=range] { width: 100%; }
-    #sampleSize { font-size: 1.1em; margin-top: 10px; }
-    .description { margin-bottom: 30px; }
+    #sampleSize, #confusionMatrix { font-size: 1.1em; margin-top: 20px; }
+    #confusionMatrix table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    #confusionMatrix th, #confusionMatrix td { border: 1px solid #ccc; padding: 8px; text-align: center; vertical-align: middle; }
+    #confusionMatrix th { background: #f0f0f0; }
+    .description, .error-descriptions { margin-bottom: 30px; }
   </style>
 </head>
 <body>
   <h2>Interactive Null Hypothesis Testing Visualization</h2>
 
+  <div class="error-descriptions">
+    <p><strong>Type I error</strong>: The mistake of rejecting the null hypothesis when it is actually true.</p>
+    <p><strong>Type II error</strong>: The mistake of failing to reject the null hypothesis when the alternative hypothesis is true.</p>
+  </div>
+
   <div class="description">
-    <p><strong>Alpha (α = 0.05)</strong>: The probability of a <em>Type&nbsp;I error</em>, i.e., rejecting the null hypothesis when it is actually true.</p>
-    <p><strong>Power (1−β = 0.80)</strong>: The probability of correctly rejecting the null hypothesis when the alternative hypothesis is true (i.e., avoiding a <em>Type&nbsp;II error</em>).</p>
-    <p><strong>Effect Size (δ = 0.20)</strong>: The standardized difference in means you aim to detect, expressed in units of the population standard deviation.</p>
+    <p><strong>Alpha (α = 0.05)</strong>: The probability of a Type I error.</p>
+    <p><strong>Power (1−β = 0.80)</strong>: The probability of correctly rejecting the null when the alternative is true (1 minus the probability of a Type II error).</p>
+    <p><strong>Effect Size (δ = 0.20)</strong>: The standardized difference in means you aim to detect.</p>
   </div>
 
   <div class="control">
@@ -45,6 +54,27 @@
   <div id="plot" style="width:100%;height:400px;"></div>
   <div id="sampleSize"><strong>Required sample size (per group):</strong> <span id="nValue"></span></div>
 
+  <div id="confusionMatrix">
+    <h3>Confusion Matrix (%)</h3>
+    <table>
+      <tr>
+        <th></th>
+        <th>Predicted Positive</th>
+        <th>Predicted Negative</th>
+      </tr>
+      <tr>
+        <th>Actual Positive<br>(H₁ True)</th>
+        <td id="tpValue"></td>
+        <td id="fnValue"></td>
+      </tr>
+      <tr>
+        <th>Actual Negative<br>(H₀ True)</th>
+        <td id="fpValue"></td>
+        <td id="tnValue"></td>
+      </tr>
+    </table>
+  </div>
+
   <script>
     const alphaInput = document.getElementById('alphaRange');
     const powerInput = document.getElementById('powerRange');
@@ -53,6 +83,10 @@
     const powerValue = document.getElementById('powerValue');
     const effectValue = document.getElementById('effectValue');
     const nValue = document.getElementById('nValue');
+    const tpValue = document.getElementById('tpValue');
+    const fpValue = document.getElementById('fpValue');
+    const fnValue = document.getElementById('fnValue');
+    const tnValue = document.getElementById('tnValue');
 
     function update() {
       const alpha = parseFloat(alphaInput.value);
@@ -64,21 +98,15 @@
       powerValue.textContent = power.toFixed(2);
       effectValue.textContent = effectSize.toFixed(2);
 
-      // Critical z-values
       const zAlpha = jStat.normal.inv(1 - alpha / 2, 0, 1);
       const zPower = jStat.normal.inv(power, 0, 1);
-      // Sample size per group formula
       const n = Math.ceil(((zAlpha + zPower) ** 2 * 2) / (effectSize ** 2));
       nValue.textContent = n;
 
-      // Generate plotting range
       const lower = Math.min(-4, effectSize - 4);
       const upper = Math.max(4, effectSize + 4);
-      const xs = [];
       const steps = 500;
-      for (let i = 0; i < steps; i++) {
-        xs.push(lower + (i / (steps - 1)) * (upper - lower));
-      }
+      const xs = Array.from({ length: steps }, (_, i) => lower + (i / (steps - 1)) * (upper - lower));
       const yNull = xs.map(x => jStat.normal.pdf(x, 0, 1));
       const yAlt = xs.map(x => jStat.normal.pdf(x, effectSize, 1));
 
@@ -89,21 +117,22 @@
       const powerX = xs.filter(x => x >= -zAlpha && x <= zAlpha);
       const powerY = yAlt.filter((_, i) => xs[i] >= -zAlpha && xs[i] <= zAlpha);
 
-      const data = [
+      Plotly.newPlot('plot', [
         { x: xs, y: yNull, mode: 'lines', name: 'Null Distribution', line: { dash: 'dash' } },
         { x: xs, y: yAlt, mode: 'lines', name: 'Alternative Distribution' },
         { x: leftX, y: leftY, fill: 'tozeroy', name: 'Alpha Region', mode: 'none' },
         { x: rightX, y: rightY, fill: 'tozeroy', showlegend: false, mode: 'none' },
-        { x: xs.filter(x => x >= -zAlpha && x <= zAlpha), y: powerY, fill: 'tozeroy', name: 'Power Region', mode: 'none' }
-      ];
-
-      const layout = {
+        { x: powerX, y: powerY, fill: 'tozeroy', name: 'Power Region', mode: 'none' }
+      ], {
         title: 'Hypothesis Testing: Null vs Alternative',
         xaxis: { title: 'Test Statistic' },
         yaxis: { title: 'Density' }
-      };
+      }, { responsive: true });
 
-      Plotly.newPlot('plot', data, layout, { responsive: true });
+      tpValue.innerHTML = `<strong>True Positive</strong><br>${(power * 100).toFixed(1)}%`;
+      fnValue.innerHTML = `<strong>False Negative</strong><br>${(beta * 100).toFixed(1)}%`;
+      fpValue.innerHTML = `<strong>False Positive</strong><br>${(alpha * 100).toFixed(1)}%`;
+      tnValue.innerHTML = `<strong>True Negative</strong><br>${((1 - alpha) * 100).toFixed(1)}%`;
     }
 
     [alphaInput, powerInput, effectInput].forEach(el => el.addEventListener('input', update));
